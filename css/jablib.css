@@ -1,0 +1,14 @@
+/*The content pane is a small block to contain all well elements*/
+
+div.contentpane{
+	margin-right: auto;
+	margin-left: auto;
+	width: 70%;
+}
+
+.hacker{
+	background-color: #b75fe6;
+	color: #ffffff;
+	font-family: "Courier" "Courier New" monospaced;
+}
+

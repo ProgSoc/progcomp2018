@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="css/jablib.css" />
+   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+</head>
+
+<body>
+	<div class="hacker" style="width=100%;">
+		<img src="img/logo_black.png" style="padding: 10px;"/>
+		<span style="font-size:3em;font-weight:bold;vertical-align:middle">
+			UTS Programming Competition 2018
+		</span>
+	</div>
+	
+	<div class="container-fluid" style="padding-top: 1em">
+		
+		
+		<div class="span3" style="float:left">
+			<ul class="nav nav-list">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="prizes.html">Prizes</a></li>
+				<li><a href="registration.html">Registration</a></li>
+				<li><a href="infosesh.html">Information and Practice Sessions</a></li>
+				<li class="active"><a href="details.html">Programming Languages, Marking and Scoring</a></li>
+				<li><a href="rules.html">Rules</a></li>
+				<li><a href="preparing.html">Preparing for the Competition</a></li>
+				<li><a href="faqs.html">Frequently Asked Questions</a></li>
+				<li><a href="icpc.html">The ICPC</a></li>
+			</ul>
+		</div>
+		
+		<div class="span10" style="float:left; overflow: hidden;">
+<h3>Competition programming languages</h3>
+
+<p>The following is a list of languages that can be used by contestants to complete solutions to Competition problems, as well as the version number of the compilers used on the <b>adjudication server</b> (subject to change):</p>
+
+<ul>
+<li>Java (Java SE Runtime Environment build 1.6.0_41)</li>
+<li>C (gcc version 4.8.4)</li>
+<li>C++ (g++ version 4.8.4, C++11 enabled)</li>
+<li>Python 2.7.6</li>
+<!-- li>Python 3.4.3</li-->
+</ul>
+
+<h3>Text editors and IDEs</h3>
+
+<p>The following is a list of text editors and Integrated Development Environments (IDEs) available on the lab machines for contestants to write their code with:</p>
+
+<ul>
+<li>BlueJ</li>
+<li>Eclipse 3.6.1 (Helios)</li>
+<li>NetBeans IDE 8.1 (Build 201510222201)</li>
+<li>Code::Blocks 10.05</li>
+<li>gedit 2.28.4</li>
+<li>XEmacs 21.5.31</li>
+<li>VIM 7.4.629</li>
+</ul>
+
+<h3>Marking of answers</h3>
+
+<p>Only the output of your code will be assessed for correctness.</p>
+
+<p>Solutions to problems that are uploaded to the marking system are called <i>submissions</i>. Each submission is judged as <b>accepted</b> or <b>rejected</b> and the team is notified of the results as soon as possible.</p> 
+
+<p><b>Note:</b> you have to submit the source code of your program (i.e. do not submit a compiled program or the output of your program). The marking system compiles submissions.</p>
+
+<p>A submission can be adjudicated as follows:</p>
+
+<table>
+<tr><td valign="top" width="20%"><b>CORRECT</b></td><td valign="top">The submission passed all tests: you solved this problem!</td></tr>
+<tr><td valign="top"><b>COMPILER-ERROR</b></td><td valign="top">There was an error when compiling your program.</td></tr>
+<tr><td valign="top"><b>TIMELIMIT</b></td><td valign="top">Your program took longer than the maximum allowed time for this problem. Therefore it has been aborted. This might indicate that your program hangs in a loop or that your solution is not efficient enough.</td></tr>
+<tr><td valign="top"><b>RUN-ERROR</b></td><td valign="top">There was an error during the execution of your program. This can have a lot of different causes like division by zero, incorrectly addressing memory (e.g. by indexing arrays out of bounds), trying to use more memory than the limit, etc. Also check that your program exits with exit code <tt>0</tt></td></tr>
+<tr><td valign="top"><b>NO-OUTPUT</b></td><td valign="top">Your program did not generate any output. Check that you write to standard output.</td></tr>
+<tr><td valign="top"><b>WRONG-ANSWER</b></td><td valign="top">The output of your program was incorrect. This can happen simply because your solution is not correct, but remember that your output must comply exactly with the Problem Description.</td></tr>
+<tr><td valign="top"><b>TOO-LATE</b></td><td valign="top">You submitted after the competition ended! Your submission is stored but will not be processed any more.</td></tr>
+</table>
+
+<p>&nbsp;</p>
+
+<p>See <a href="http://progsoc.org/w/images/9/99/DomJudgeExample.png">here</a> to get an idea of what the marking system looks like.</p>
+
+<h3>Scoring</h3>
+
+<p>Rankings on the scoreboard are determined by the following criteria (in order):</p>
+
+<ol>
+<li>The largest number of <b>problems solved</b> (i.e. correct accepted submissions), then by</li>
+<li>The lowest <b>total elapsed time</b>, in minutes, for solved problems.</li>
+</ol>
+
+<p>You can see that this is the case by looking at <a href="http://progsoc.org/progcomp/2016-final-scoreboard.html">this scoreboard</a> as an example.</p> 
+
+<p>Note that each incorrect submission for a problem incurs a time penalty of 20 minutes on top of the submission time for the problem, so it is in contestants' best interests to submit solutions to problems as early as possible, in as few attempts as possible.</p>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jablib.js"></script>
+</body>
+</html>
