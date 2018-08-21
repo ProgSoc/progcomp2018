@@ -1,60 +1,431 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="css/jablib.css" />
-   <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/> 
+      <!-- Basic Page Needs
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- HTML Meta Tags -->
+    <title>UTS Programming Competition 2018</title>
+    <meta name="description" content="UTS Programming Competition 2018, sponsored by WiseTech Global">
+
+    <!-- Google / Search Engine Tags -->
+    <meta itemprop="name" content="UTS Programming Competition 2018">
+    <meta itemprop="description" content="UTS Programming Competition 2018, sponsored by WiseTech Global">
+    <meta itemprop="image" content="http://progsoc.org/progcomp2018/img/logo_black.png">
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="http://progsoc.org/progcomp2018/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UTS Programming Competition 2018">
+    <meta property="og:description" content="UTS Programming Competition 2018, sponsored by WiseTech Global">
+    <meta property="og:image" content="http://progsoc.org/progcomp2018/img/logo_black.png">
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="UTS Programming Competition 2018">
+    <meta name="twitter:description" content="UTS Programming Competition 2018, sponsored by WiseTech Global">
+    <meta name="twitter:image" content="http://progsoc.org/progcomp2018/img/logo_black.png">
+
+    <!-- Meta Tags Generated via http://heymeta.com -->
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link type="text/css" rel="stylesheet" href="css/normalize.css" />
+    <link type="text/css" rel="stylesheet" href="css/hamburgers.css" />
+    <link type="text/css" rel="stylesheet" href="css/jablib.css" />
 </head>
 
 <body>
-	<div class="hacker" style="width=100%;">
-		<img src="img/logo_black.png" style="padding: 10px;"/>
-		<span style="font-size:3em;font-weight:bold;vertical-align:middle">
-			UTS Programming Competition 2018
-		</span>
-	</div>
-	
-	<div class="container-fluid" style="padding-top: 1em">
-		
-		
-		<div class="span3" style="float:left">
-			<ul class="nav nav-list">
-				<li class="active"><a href="index.html">Home</a></li>
-				<li><a href="prizes.html">Prizes</a></li>
-				<li><a href="registration.html">Registration</a></li>
-				<li><a href="infosesh.html">Information and Practice Sessions</a></li>
-				<li><a href="details.html">Programming Languages, Marking and Scoring</a></li>
-				<li><a href="rules.html">Rules</a></li>
-				<li><a href="preparing.html">Preparing for the Competition</a></li>
-				<li><a href="faqs.html">Frequently Asked Questions</a></li>
-				<li><a href="icpc.html">The ICPC</a></li>
-			</ul>
-		</div>
-		
-		<div class="span8" style="float:left; overflow: hidden;">
-         <h2>Saturday 15th September</h2>
-         <h2>10:30am - 3:30pm</h2>
-         <h2>UTS CB11.B1</h2>
+  <header>
+    <div class="header-logo">
+      <img src="img/logo_black.png" class="logo" />
+      <h1>UTS Programming Competition 2018</h1>
+    </div>
+    <!-- If JavaScript is enabled, the script will remove "is-gone" when run -->
+    <button class="hamburger hamburger--elastic is-gone" type="button" aria-label="Menu" aria-controls="navigation">
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+      <span class="hamburger-label">Navigation</span>
+    </button>
+    <nav>
+      <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#prizes">Prizes</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#infosesh">Information and Practice Sessions</a></li>
+        <li><a href="#details">Programming Languages, Marking and Scoring</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#preparing">Preparing for the Competition</a></li>
+        <li><a href="#faqs">Frequently Asked Questions (FAQ)</a></li>
+        <li><a href="#icpc">The ICPC</a></li>
+      </ul>
+    </nav>
+    <noscript>
+      <!-- If JavaScript is disabled, set the navigation to be active already. -->
+      <p class="note">You've disabled JavaScript. This menu will always be expanded for you.</p>
+      <nav class="is-active">
+        <ul>
+        <li><a href="#overview">Overview</a></li>
+        <li><a href="#prizes">Prizes</a></li>
+        <li><a href="#registration">Registration</a></li>
+        <li><a href="#infosesh">Information and Practice Sessions</a></li>
+        <li><a href="#details">Programming Languages, Marking and Scoring</a></li>
+        <li><a href="#rules">Rules</a></li>
+        <li><a href="#preparing">Preparing for the Competition</a></li>
+        <li><a href="#faqs">Frequently Asked Questions</a></li>
+        <li><a href="#icpc">The ICPC</a></li>
+        </ul>
+      </nav>
+    </noscript>
+    <div class="shadow"></div>
+  </header><!--/header-->
+  <main>
+    <a name="overview"></a>
+  	<section class="palette-0">
+      <h2>Overview</h2>
+      <h3>Saturday 15th September</h3>
+      <h3>10:30am - 3:30pm</h3>
+      <h3>UTS CB11.B1</h3>
 
-			<p>
-				The <b>2018 UTS Programming Competition</b> (sponsored by <!-- the <a href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a>, and --> <a href="http://www.wisetechglobal.com/">WiseTech Global</a>) will see entrants race the clock to solve as many problems as they can over four hours. The problems will range from simple <b>beginner level</b> problems, to more <b>challenging</b> problems. <b>A free pizza lunch will be provided on the day!</b>
-         </p>
+      <p>The <b>2018 UTS Programming Competition</b> (sponsored by <!-- the <a href="https://www.uts.edu.au/about/faculty-engineering-and-information-technology">Faculty of Engineering and IT</a>, and --> <a href="http://www.wisetechglobal.com/">WiseTech Global</a>) will see entrants race the clock to solve as many problems as they can over four hours. The problems will range from simple <b>beginner level</b> problems, to more <b>challenging</b> problems. <b>A free pizza lunch will be provided on the day!</b></p>
 
-         <p>
-Registration for this Competition is <b>free</b> and open to <b>all UTS students</b> from any faculty. We encourage both beginners and more experienced programmers to compete. Entrants may enter as <b>teams of two or three</b>. Prizes will be awarded to the <b>best teams</b>. All entrants will receive certificates of participation. 
-			</p>
+      <p>Registration for this Competition is <b>free</b> and open to <b>all UTS students</b> from any faculty. We encourage both beginners and more experienced programmers to compete. Entrants may enter as <b>teams of two or three</b>. Prizes will be awarded to the <b>best teams</b>. All entrants will receive certificates of participation.</p>
 
-         <p>
-This Competition is the <b>first step</b> towards participating in the <a href="https://icpc.baylor.edu/">International Collegiate Programming Contest (ICPC)</a>, the world's annual <b>elite programming competition</b> for undergraduate university students! 
-         </p>
+      <p>This Competition is the <b>first step</b> towards participating in the <a href="https://icpc.baylor.edu/">International Collegiate Programming Contest (ICPC)</a>, the world's annual <b>elite programming competition</b> for undergraduate university students!</p>
+  	</section>
 
-         <p>
-<h2><a href="registration.html">REGISTER NOW TO WIN $1500!</a></h2>
-         </p>
-		</div>
-	</div>
-	
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jablib.js"></script>
+    <a name="prizes"></a>
+    <section class="palette-1">
+      <h2>Prizes</h2>
+      <h3>Cash prizes (prize pool of $3000)</h3>
+      <ul>
+        <li>First place - $1500</li>
+        <li>Second place - $900</li>
+        <li>Third place - $600</li>
+      </ul>
+
+      <h3>WiseTech merchandise for all entrants</h3>
+
+      <h3>Sponsorship for the ICPC</h3>
+    </section>
+
+    <a name="registration"></a>
+    <section class="palette-0">
+      <h2>Registration</h2>
+      <p class="important-note">Registrations close on Monday the 3rd of September at 6:00PM AEST</p>
+
+      <p>This Competition is open to <b>current UTS students of any Faculty</b>.</p>
+
+      <p>To enter the Competition you must fill in <a href="https://www.eventbrite.com/e/2018-uts-programming-competition-tickets-49257103322">this registration form</a>.  There are <b>no registration fees</b>.</p>
+
+      <p>To participate in the Competition, you must be a member of a <b>team</b>.</p>
+
+      <p>Each team <b>must</b> have <b>2 or 3 people</b> who have also filled in the registration form. </p>
+
+      <p>Note that you are not required to nominate your team on the form, however you may do so if you have already formed a team.</p>
+
+      <p>If you have not formed a team, don't worry. Please fill in the form, then attend our <a href="#infosesh">Information Session</a> on the 3rd of September, where you will be able to meet other unassigned individuals and form a team with them.</p>
+
+      <p>If you find a team you wish to be a part of before the Information Session, but have not nominated one on the form, feel free to resubmit the form to let us know. Note that each team member should resubmit, confirming their intent to form a team.</p>
+
+      <p>This Competition is the first step towards participating in the <a href="#icpc">ICPC</a>. If you intend on competing in later stages of the ICPC as a representative team of UTS, please notify your intention on the form.</p>
+
+      <p>Note that certain eligibility requirements apply to participating in the ICPC (please see <a href="EligibilityDecisionTree-2019.pdf">the Eligibility Decision Tree for 2018-2019</a>), in addition to performing well in the Competition. Being ineligible for the ICPC does not preclude you from entering this Competition, however.</p>
+
+      <p>You <b>must</b> be in a <b>team of 3</b> for this Competition if you intend on competing in the ICPC.</p>
+
+      <a class="important-link" href="https://www.eventbrite.com/e/2018-uts-programming-competition-tickets-49257103322">REGISTER NOW!</a>
+    </section>
+
+    <a name="infosesh"></a>
+    <section class="palette-1">
+      <h2>Information and Practice Sessions</h2>
+      <p class="important-note">An information and registration finalisation session will be held on: <b>Monday 3rd September 2018, 6.00PM</b> at <b>The Loft (upstairs)</b></p>
+
+      <p>Come along for some <b>free pizza and drinks</b>! Bring your <b>laptop</b> with you as well!</p>
+
+      <p>In this session, we will be doing the following things:</p>
+
+      <ol>
+        <li>Forming your teams! If you haven't got a team yet, don't worry -- just come to this session and we'll find you one :)</li>
+        <li>Providing an overview of how the Competition will be run on the day.</li>
+        <li>Showing you how to use DOMJudge, the software you will be using to submit your solutions to your problems for judging. We will also explain how problems are judged and scored.</li>
+        <li>Allowing you to have a go at a few practice problems!</li>
+        <li>Providing an overview of the ICPC.</li>
+      </ol>
+
+      <p class="important-note">A practice session before the Competition will be held on: <b>Thursday 13th September 2018, 6.00PM</b></p>
+
+      <p>More information on this to follow -- check back soon!</p>
+    </section>
+
+    <a name="details"></a>
+    <section class="palette-0">
+      <h2>Programming Languages, Marking and Scoring</h2>
+      <h3>Competition programming languages</h3>
+
+      <p>The following is a list of languages that can be used by contestants to complete solutions to Competition problems, as well as the version number of the compilers used on the <b>adjudication server</b> (subject to change):</p>
+
+      <ul>
+        <li>Java (Java SE Runtime Environment build 1.6.0_41)</li>
+        <li>C (gcc version 4.8.4)</li>
+        <li>C++ (g++ version 4.8.4, C++11 enabled)</li>
+        <li>Python 2.7.6</li>
+        <!-- li>Python 3.4.3</li-->
+      </ul>
+
+      <h3>Text editors and IDEs</h3>
+
+      <p>The following is a list of text editors and Integrated Development Environments (IDEs) available on the lab machines for contestants to write their code with:</p>
+
+      <ul>
+        <li>BlueJ</li>
+        <li>Eclipse 3.6.1 (Helios)</li>
+        <li>NetBeans IDE 8.1 (Build 201510222201)</li>
+        <li>Code::Blocks 10.05</li>
+        <li>gedit 2.28.4</li>
+        <li>XEmacs 21.5.31</li>
+        <li>VIM 7.4.629</li>
+      </ul>
+
+      <h3>Marking of answers</h3>
+
+      <p>Only the output of your code will be assessed for correctness.</p>
+
+      <p>Solutions to problems that are uploaded to the marking system are called <i>submissions</i>. Each submission is judged as <b>accepted</b> or <b>rejected</b> and the team is notified of the results as soon as possible.</p>
+
+      <p><b>Note:</b> you have to submit the source code of your program (i.e. do not submit a compiled program or the output of your program). The marking system compiles submissions.</p>
+
+      <p>A submission can be adjudicated as follows:</p>
+
+      <table>
+      <tr>
+        <td valign="top" width="20%"><b>CORRECT</b></td>
+        <td valign="top">The submission passed all tests: you solved this problem!</td>
+      </tr>
+      <tr>
+        <td valign="top"><b>COMPILER-ERROR</b></td>
+        <td valign="top">There was an error when compiling your program.</td>
+      </tr>
+      <tr>
+        <td valign="top"><b>TIMELIMIT</b></td>
+        <td valign="top">Your program took longer than the maximum allowed time for this problem. Therefore it has been aborted. This might indicate that your program hangs in a loop or that your solution is not efficient enough.</td>
+      </tr>
+      <tr>
+        <td valign="top"><b>RUN-ERROR</b></td>
+        <td valign="top">There was an error during the execution of your program. This can have a lot of different causes like division by zero, incorrectly addressing memory (e.g. by indexing arrays out of bounds), trying to use more memory than the limit, etc. Also check that your program exits with exit code <tt>0</tt></td>
+      </tr>
+      <tr>
+        <td valign="top"><b>NO-OUTPUT</b></td>
+        <td valign="top">Your program did not generate any output. Check that you write to standard output.</td>
+      </tr>
+      <tr>
+        <td valign="top"><b>WRONG-ANSWER</b></td>
+        <td valign="top">The output of your program was incorrect. This can happen simply because your solution is not correct, but remember that your output must comply exactly with the Problem Description.</td>
+      </tr>
+      <tr>
+        <td valign="top"><b>TOO-LATE</b></td>
+        <td valign="top">You submitted after the competition ended! Your submission is stored but will not be processed any more.</td>
+      </tr>
+      </table>
+
+      <p>See <a href="http://progsoc.org/w/images/9/99/DomJudgeExample.png">here</a> to get an idea of what the marking system looks like.</p>
+
+      <h3>Scoring</h3>
+
+      <p>Rankings on the scoreboard are determined by the following criteria (in order):</p>
+
+      <ol>
+        <li>The largest number of <b>problems solved</b> (i.e. correct accepted submissions), then by</li>
+        <li>The lowest <b>total elapsed time</b>, in minutes, for solved problems.</li>
+      </ol>
+
+      <p>You can see that this is the case by looking at <a href="http://progsoc.org/progcomp/2016-final-scoreboard.html">this scoreboard</a> as an example.</p>
+
+      <p>Note that each incorrect submission for a problem incurs a time penalty of 20 minutes on top of the submission time for the problem, so it is in contestants' best interests to submit solutions to problems as early as possible, in as few attempts as possible.</p>
+    </section>
+
+    <a name="rules"></a>
+    <section class="palette-1">
+      <h2>Rules</h2>
+      <p>The following rules govern the conduct of the Competition while it is taking place. All <a href="#registration">correctly registered</a> entrants shall follow these rules in order to be eligible for prizes, and should familiarise themselves of the rules prior to competing.</p>
+      <ol>
+        <li>Entrants will have a total of <b>4 hours</b> to solve as many problems as possible.
+        <li>Entrants are free to leave the competition room at any time for breaks.
+        <li>The competition clock will <b>not</b> be paused for lunch breaks.
+        <li>Printed reference materials, including books, and handwritten notes, may be taken into the room. The only use of the Internet is to access the competition/marking system. All other uses of online resources are <b>prohibited</b> and will be <b>blocked</b>. Entrants must <b>not</b> attempt to circumvent the blocking put in place.
+        <li>Mobile phones, tablet devices, smart watches and other personal computing devices must be <b>switched off</b> for the duration of the contest and must be <b>given to competition staff</b> for safekeeping.
+        <li>Each team will have access to one, and only one, PC running Linux with a single monitor, mouse and keyboard. Entrants may bring their own keyboard and/or mouse.
+        <li>Prior to the start of the contest, entrants are to login to their PCs and the marking system, using the credentials provided. Once logged in, entrants must not touch their keyboard, nor the question booklet provided, until the start of the contest.
+        <li>Solutions must be coded in either <b>C, C++, Java or Python</b>. Solutions that execute shell commands or spawn a shell to run some other scripting language will be rejected.
+        <li>Solutions must not be obfuscated, and should clearly show the algorithm used to solve the problem.
+        <li>Supervisors cannot answer any questions related to the competition problems. However, you can request for clarification using the marking system and a judge will get back to you. (See the right side of this <a href="http://progsoc.org/w/images/9/99/DomJudgeExample.png">this image</a>). Entrants <b>must not request a clarification in person</b> from a judge, as the judging room is <b>off-limits'</b> by entrants for the duration of the contest.
+        <li>The judges' decision is <b>final</b>.
+        <li>Violation of any of the above-mentioned rules by entrants may result in <b>disqualification</b>.
+      </ol>
+    </section>
+
+    <a name="preparing"></a>
+    <section class="palette-0">
+      <h2>Preparing for the Competition</h2>
+      <h3>How to prepare</h3>
+
+      <p>The best way to prepare for the Competition is, of course, to <i>practice</i>!</p>
+
+      <h4>Individual preparation</h4>
+
+      <p>This would involve familiarising yourself with, and becoming adept at:</p>
+
+      <ol>
+      <li>at least one of the four official programming languages (C/C++, Java and Python);</li>
+      <li>how to read from standard input and write to standard output in your language(s) of choice;</li>
+      <li>the <a href="#icpc">ICPC</a> question format, examples of which are provided on this page (the Competition intentionally follows the ICPC format);</li>
+      <li>as many data structures and algorithms as possible, and knowing how and where to apply them -- this is what the Competition is <i>really</i> all about!</li>
+      </ol>
+
+      <h4>Team preparation</h4>
+
+      <p>You will also need to learn how to work effectively as a team, so doing practice contests with your team mates, be it at home or even in the CB11.B1 labs or the CB11.05 FLP, is essential to success.</p>
+
+      <p>You and your team will be subjected to the following constraints during the Competition:</p>
+
+      <ol>
+      <li>You will only have one computer -- one monitor, one keyboard, one mouse -- at your disposal.</li>
+      <li>You will only have four hours to attempt the problems.</li>
+      <li>You will not have access to the Internet.</li>
+      <!--li>You will have a printer to print your code with, however.</li-->
+      </ol>
+
+      <p>This necessitates coming up with some kind of time and resource management strategy. There are two or three of you in your team. All of you need to be active participants.</p>
+
+      <p>It is actually possible to be working on more than one problem at a time! Start by unstapling the problem set booklet. While one team mate is typing a solution to one problem, another could be scribbling a pseudocode algorithm for another problem. <!--If you get stuck on a problem while coding it -- don't waste time! Print out your work in progress, so that a team mate can pore over it in an attempt to debug the code, while working on another problem.--></p>
+
+      <p>While you are not allowed to use the Internet, you are allowed to bring text books and printouts of resources. You should also assemble a manila folder filled with printouts of useful code samples, algorithms and mathematical theorems. Ideally you will have an understanding of said algorithms and theorems before competing. A sample folder is provided on this page.</p>
+
+      <h3>Resources</h3>
+
+      <h4>Programming Competition Tips</h4>
+
+      <p><a href="http://progsoc.org/wiki/Programming_Competition_Tips">Includes information on how to compile and run programs written in the official Competition languages, as well how to read from standard input.</a></p>
+
+      <h4>Example Problems</h4>
+
+      <p>To cater for a variety of ability levels, the Competition problem set will consist of a mix of easy problems and difficult problems.</p>
+
+      <h4>Easy Problems</h4>
+
+      <p>These will be set at the level of <a href="https://projecteuler.net/">Project Euler</a> problems. </p>
+
+      <p>Example:</p>
+
+      <p>Write a program that adds all the natural numbers (i.e. positive integers) below one thousand that are multiples of 3 or 5. <a href="http://progsoc.org/wiki?title=Euler_Solution_1&oldid=4747">Possible solutions</a>.</p>
+
+      <h4>Difficult Problems</h4>
+
+      <p>These will be set at the level of ACM ICPC Regional Competition Problems.</p>
+
+      <p>A few examples:</p>
+
+      <p>
+      <a href="https://acmicpc.unisa.edu.au//documents/problems/problemC2006.pdf">Problem 3, 2006 South Pacific Regional Competition - Simple Encryption</a><br />
+      <a href="https://acmicpc.unisa.edu.au//documents/problems/problemA2008.pdf">Problem A, 2008 South Pacific Regional Competition - Being Late</a>
+      </p>
+
+      <p>More ACM problems can be found at:</p>
+
+      <p>
+      <a href="https://acmicpc.unisa.edu.au/index.php/regional-contest-current">South Pacific Region Problem Archives</a><br />
+      <a href="http://icpc.baylor.edu/worldfinals/problems">ACM-ICPC World Finals Problems Archives</a>
+      </p>
+
+      <p>Test your solutions on the <a href="http://livearchive.onlinejudge.org/">ACM-ICPC Live Archive Online Judge</a>.</p>
+
+      <h4>Previous Programming Competition Problem Sets</h4>
+
+      <p>
+      <a href="http://progsoc.org/wiki/UTS_Programming_Competition_2012_Problem_Set">2012</a><br />
+      <a href="http://progsoc.org/wiki/UTS_Programming_Competition_2013_Problem_Set">2013</a><br />
+      <a href="http://progsoc.org/wiki/UTS_Programming_Competition_2014_Problem_Set">2014</a><br />
+      <a href="http://progsoc.org/wiki/UTS_Programming_Competition_2015_Problem_Set">2015</a><br />
+      <a href="http://progsoc.org/wiki/UTS_Programming_Competition_2016_Problem_Set">2016</a><br />
+      </p>
+
+      <h4>Competitive Programming Websites</h4>
+
+      <p>Practice by yourself and with your team -- and compete with the rest of the world!</p>
+
+      <p>
+      <a href="http://codeforces.com/">Codeforces</a><br />
+      <a href="http://hackerrank.com/">Hackerrank</a><br />
+      <a href="http://topcoder.com/">Topcoder</a>
+      </p>
+
+      <h4>Sample algorithm folder</h4>
+
+      <p><a href="https://github.com/Edgeworth/potential-batman">Used by a team from the University of Western Australia that participated in the 2015 ICPC World Finals.</a> Use it as the basis of your Competition folder, if you like!</p>
+    </section>
+
+    <a name="faqs"></a>
+    <section class="palette-1">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <h3>Can I use C#, JavaScript, or my all-time favourite language ever in the competition?</h3>
+
+      <p>This year's competition will only accept Java, C/C++ or Python solutions. Yes, it's time to hit the textbooks again if it's been a while. Look on the bright side, if you decide to participate in the ICPC, you've done your basic revision already!</p>
+
+      <h3>Do we supply input via standard input, files, or arguments on the command line?</h3>
+
+      <p>All input will be from standard input, and all output will be to standard output. No arguments will be passed to your program at the command line. No files will be opened for reading or writing. </p>
+
+      <h3>I have a feeling the system may say my solution is incorrect even though I've met the expected output. Why?</h3>
+
+      <p>The marking system is a machine, not a person, and will treat the extra output of your solution, such as human-friendly prompts, as 'incorrect'; it is whitespace-sensitive and case-sensitive.</p>
+
+      <h3>How is the 'total elapsed time' calculated in this contest?</h3>
+
+      <p>When a correct submission is made to the adjudicators, the number of minutes elapsed since the beginning of the contest at the time of the correct submission is recorded.</p>
+
+      <h3>Do we program on provided computers or use our own?</h3>
+
+      <p>We'll be using the computer labs in Building 11. The lab computers will be used to keep the competition fair.</p>
+
+      <h3>Which text editors and IDEs will be available for use in the labs?</h3>
+
+      <p>gedit, nano, vim, emacs, Eclipse and BlueJ.</p>
+
+      <h3>Can we use Windows on the lab computers?</h3>
+
+      <p>No. Linux (Red Hat, to be exact) will be used, which is the default, on the computer labs. If you have not used the lab computers in Building 11 before, it is recommended you do so before the competition. If you choose to ignore this recommendation and choose Windows at login during the competition, you are wasting precious time -- it will not work; Windows will not load. And even if you did, you will need to be mindful of carriage return differences between Windows and Linux systems in your output (i.e. \n instead of \r\n).</p>
+
+      <h3>Why haven't I registered yet!?</h3>
+
+      <p>No idea...</p>
+
+      <a class="important-link" href="#registration">REGISTER NOW!</a>
+    </section>
+
+    <a name="icpc"></a>
+    <section class="palette-0">
+      <h2>The ICPC</h2>
+      <p>In addition to winning prize money in the Competition, teams who have performed well (<a href="EligibilityDecisionTree-2019.pdf">and are eligible to do so</a>) will be invited to represent UTS in the International Collegiate Programming Contest, or <a href="https://icpc.baylor.edu/">ICPC</a>.</p>
+
+      <p>The ICPC is a multi-stage contest. The UTS Programming Competition is the first stage.</p>
+
+      <p>The second stage is the <b>Divisional Round</b>, which will take place on the <b>20th of October</b> at the <b>University of Sydney</b>. Teams from UTS shall compete against other teams from universities in New South Wales, Queensland and the Australian Capital Territory. The top four universities from this region (which could include UTS) will advance to the next stage.</p>
+
+      <p>The third stage is the <b>Regional Round</b>, which will take place on the <b>23rd and 24th of November</b> at the <b>University of New South Wales</b>. A minimum of 12 teams from all over Australia and New Zealand shall compete in this round. The top two universities from this round (which, again, <i>could include UTS</i>!) will advance to the next stage.</p>
+
+      <p>The fourth, and final stage is the <b>World Finals</b>, which will take place in 2019 in an as-yet-to-be-announced location. There will be in excess of 130 teams from universities all over the world. To date, no team from UTS has made it to the World Finals, so getting to this stage would be an achievement in and of itself -- it would certainly look good on your resume!</p>
+    </section>
+  </main>
+
+<!-- JavaScript/jQuery
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script type="text/javascript" src="vendor/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/navigation.js"></script>
 </body>
 </html>
