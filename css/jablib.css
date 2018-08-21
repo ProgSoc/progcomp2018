@@ -15,6 +15,19 @@ header {
   margin-top: -20px;
 }
 
+p.important-note,
+a.important-link {
+  padding: 1em;
+}
+
+.important-note,
+.important-link {
+  border: 3px solid #b75fe6;
+  background-color: #FFF;
+  display: block;
+  margin: 0 auto;
+}
+
 h1 {
 	font-family: "Courier" "Courier New" monospaced;
 }
